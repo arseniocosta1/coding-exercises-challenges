@@ -9,7 +9,6 @@ func RemainingOvenTime(actualMinutesInOven int) int {
 
 // PreparationTime calculates the time needed to prepare the lasagna based on the amount of layers.
 func PreparationTime(numberOfLayers int) int {
-
 	const LayerPreparationTime = 2
 
 	return LayerPreparationTime * numberOfLayers
