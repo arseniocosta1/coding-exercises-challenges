@@ -1,5 +1,8 @@
 // Surface computes an SVG rendering of a 3-D surface function.
-// httpmuxgo121=0 so we can use the upcomming (at this point in time) go1.22 http routes https://tip.golang.org/doc/go1.22#enhanced_routing_patterns
+// we no longer need the debug flag bellow since we updated go beyond 1.22
+// but im keeping it here for reference
+//
+//go:debug httpmuxgo121=0
 package main
 
 import (
